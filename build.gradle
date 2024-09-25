@@ -1,0 +1,21 @@
+plugins {
+    id 'java' // Apply the Java plugin to your Gradle project
+    id 'com.runemate' version '1.0.0' // Apply the RuneMate plugin to your Gradle project
+}
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+// Used to configure various aspects of the RuneMate plugin
+runemate {
+    devMode.set(true)
+}
+
+// Sets the project language level to 17
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}

@@ -1,0 +1,23 @@
+mainClass: com.tinsel1608.scripts.Test
+name: Test
+internalId: test-bot
+tagline: Test Bot Tagline
+description: Test Bot Description
+version: 0.0.1
+compatibility:
+  - OSRS
+categories:
+  - COOKING
+# AGILITY, COMBAT, CONSTRUCTION, COOKING, CRAFTING, FARMING, FIREMAKING,
+# FISHING, FLETCHING, HERBLORE, HUNTER, MAGIC, MINING, MONEYMAKING
+# PRAYER, RUNECRAFTING, SLAYER, SMITHING, WOODCUTTING
+# DEVELOPER_TOOLS, MINIGAMES, OTHER, QUESTING
+features:
+  - type: DIRECT_INPUT
+    mode: optional
+access: public
+hidden: false
+resources:
+  - com/tinsel1608/scripts/Test
+tags:
+  - Bot
